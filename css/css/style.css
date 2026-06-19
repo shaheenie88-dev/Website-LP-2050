@@ -14,3 +14,27 @@ body{
 .nav-item{
     margin-right: 40px;
 }
+.banner-subtitles{
+    color: #7153d9;
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-title{
+    font-size: 72px;
+    font-weight: 700;
+}
+.banner-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #54545F;
+
+}
+.banner-btn{
+    text-decoration: none;
+    color: azure;
+    background: linear-gradient(135deg, rgb(113, 83, 217) 0%, rgb(84, 53, 190) 45%, rgb(69, 38, 177) 66%);
+    padding: 13px 40px;
+    border-radius: 40px;
+
+}
+

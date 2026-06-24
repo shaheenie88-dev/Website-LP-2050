@@ -80,3 +80,20 @@ feature-text{
     font-size: 20px;
     font-weight: 500;
 }
+.service-card{
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1),
+            11px 6px 25px rgba(69, 38, 177, 0.1);
+
+    border-radius: 20px;
+    padding: 55px 45px;
+}
+.service-link{
+    color: black;
+    text-decoration: none;
+
+}
+
+.service-card-title a{
+    text-decoration: none;
+    color: black;
+}

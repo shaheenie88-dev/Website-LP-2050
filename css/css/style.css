@@ -1,9 +1,12 @@
 body{
-    background-color: #9da7c1;
+   
             
      font-family: "Jost", sans-serif;
          
 
+}
+.banner-bg{
+    background-color: #9da7c1;
 }
 
 .nav-link{
@@ -40,4 +43,21 @@ body{
 .nav-active {
     background-color: #fff;
     box-shadow: 5px -1px 12px -5px grey;
+}
+.feature-icon{
+    background-color: #9da7c1;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 7;
+}
+feature-text{
+    color: #54545F;
+}
+.seperator{
+    width: 3% !important ;
+}
+.image-section{
+    min-height: 451px;
 }

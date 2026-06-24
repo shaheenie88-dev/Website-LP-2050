@@ -61,3 +61,22 @@ feature-text{
 .image-section{
     min-height: 451px;
 }
+.Section-subtitles{
+    color: #7153d9;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Section-title{
+    font-size: 60px;
+    font-weight: 500;
+}
+.Section-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #54545F;
+
+}
+.feature2-title{
+    font-size: 20px;
+    font-weight: 500;
+}

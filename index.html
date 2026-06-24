@@ -12,7 +12,7 @@
 </head>
   <body>
 <!-- start navbar -->
-    <div class="container-fluid my-3">
+    <div class="container-fluid fixed-top navbar-fixed-top ">
 
             <!-- start navbar  -->
     <nav class="navbar navbar-expand-lg ">
@@ -72,6 +72,58 @@
     </div>
 </div>
 
+<div class="container"></div>
+<div class="row py-5"></div>
+
+
+<div class="container">
+    <div class="row py-5">
+        <div class="col-lg-6">
+            <h4 class="banner-subtitles"> WE ARE EGENS</h4>
+            <h1 class="banner-title"> WE DESIGN SOLUTIOBNS FOR BUSINESS</h1>
+            <P class="banner-text">Lorem ipsum dolor, sit amet consectetur  eum numquam voluptatem optio officiis, distinctio porro voluptates aspernatur ad doloribus blanditiis dolores eligendi est nisi aut sed?</P>
+            <a href="" class="banner-btn d-inline-block">Read More</a>
+        </div>
+            <div class="col-lg-6">
+        <img src="666.webp" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container"></div>
+<div class="row py-5"></div>
+
+
+<div class="container">
+    <div class="row py-5">
+        <div class="col-lg-6">
+            <h4 class="banner-subtitles"> WE ARE EGENS</h4>
+            <h1 class="banner-title"> WE DESIGN SOLUTIOBNS FOR BUSINESS</h1>
+            <P class="banner-text">Lorem ipsum dolor, sit amet consectetur  eum numquam voluptatem optio officiis, distinctio porro voluptates aspernatur ad doloribus blanditiis dolores eligendi est nisi aut sed?</P>
+            <a href="" class="banner-btn d-inline-block">Read More</a>
+        </div>
+            <div class="col-lg-6">
+        <img src="666.webp" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container"></div>
+<div class="row py-5"></div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+        const navbar = document.querySelector('.navbar-fixed-top');
+        
+        window.onscroll = () => {
+            if (window.scrollY > 30) {
+                navbar.classList.add('nav-active');
+            } else {
+                navbar.classList.remove('nav-active');
+            }
+        };
+        </script>
   </body>
 </html>

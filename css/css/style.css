@@ -1,9 +1,12 @@
 body{
-    background-color: #9da7c1;
+   
             
      font-family: "Jost", sans-serif;
          
 
+}
+.banner-bg{
+    background-color: #9da7c1;
 }
 
 .nav-link{
@@ -40,4 +43,57 @@ body{
 .nav-active {
     background-color: #fff;
     box-shadow: 5px -1px 12px -5px grey;
+}
+.feature-icon{
+    background-color: #9da7c1;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 7;
+}
+feature-text{
+    color: #54545F;
+}
+.seperator{
+    width: 3% !important ;
+}
+.image-section{
+    min-height: 451px;
+}
+.Section-subtitles{
+    color: #7153d9;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Section-title{
+    font-size: 60px;
+    font-weight: 500;
+}
+.Section-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #54545F;
+
+}
+.feature2-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.service-card{
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1),
+            11px 6px 25px rgba(69, 38, 177, 0.1);
+
+    border-radius: 20px;
+    padding: 55px 45px;
+}
+.service-link{
+    color: black;
+    text-decoration: none;
+
+}
+
+.service-card-title a{
+    text-decoration: none;
+    color: black;
 }

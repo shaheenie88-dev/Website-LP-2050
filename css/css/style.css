@@ -111,3 +111,16 @@ feature-text{
 .boost-img2{
     margin-top: -100px;
 }
+.title{
+     text-transform: uppercase;
+     letter-spacing: 8px;
+}
+.Blog-subtitles{
+    color: #7153d9;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Blog-title{
+    font-size: 21px;
+    font-weight: 500;
+}

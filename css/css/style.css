@@ -124,3 +124,16 @@ feature-text{
     font-size: 21px;
     font-weight: 500;
 }
+/* MediaQuiries */
+@media (min-width:768px) and (max-width:992) {
+.feature-icon{
+
+    width: 100px;
+    height: 100px;
+    line—height: 5.6;
+    }
+.image-section{
+        min-height:240px;
+        width: 100%;
+    }
+}
